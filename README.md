@@ -1,4 +1,4 @@
-# cChorus
+# cChorus-Fancy
 
 <p align="center"><img src="cChorus-Fancy.png"></p>
 
