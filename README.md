@@ -13,7 +13,7 @@ This project requires [CMake](https://cmake.org/) to build. On Windows, [Ninja](
 ```
 # Clone the repo
 git clone --recurse-submodules https://github.com/calgoheen/cChorus-Fancy.git
-cd cChorus
+cd cChorus-Fancy
 
 # Mac
 cmake -Bbuild -DCMAKE_OSX_ARCHITECTURES="x86_64;arm64" -DCMAKE_BUILD_TYPE=Release
