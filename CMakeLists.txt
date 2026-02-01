@@ -16,12 +16,6 @@ FetchContent_Declare(chowdsp_utils
     GIT_TAG ffc70ba399f9afaeefb996eb14e55a1d487270b8)
 FetchContent_MakeAvailable(chowdsp_utils)
 
-FetchContent_Declare(foleys_gui_magic
-    GIT_REPOSITORY https://github.com/ffAudio/foleys_gui_magic
-    GIT_TAG 5ae8534407d40736a477c59d029f7c7b1041966f)
-FetchContent_Populate(foleys_gui_magic)
-add_subdirectory(${foleys_gui_magic_SOURCE_DIR}/modules)
-
 FetchContent_Declare(clap-juce-extensions
     GIT_REPOSITORY https://github.com/free-audio/clap-juce-extensions.git
     GIT_TAG ea834dfd366ab2103b98e92eaacb581c69fc2e0b)
